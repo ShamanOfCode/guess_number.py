@@ -9,7 +9,7 @@ while cond:
     if number == guessed:
         print("Congratulations, you guessed the number!!")
         
-        cond = False # Das fuehrt zum Ende der while-Schleife
+        cond = False
     elif (guessed < number):
         print("No, the number is a little higher.")
     else:
